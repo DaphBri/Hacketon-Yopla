@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.bb {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.mb {
+  margin-bottom: 16px;
+}
+
+/* font-family */
+
+.sans {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.slab {
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
+
+/* FONT-WEIGHT */
+
+.light {
+  font-weight: 300;
+}
+.bold {
+  font-weight: 700;
+}
+
+/* FONT-SIZE */
+
+.extra-small {
+  font-size: 10px;
+  line-height: 16px;
+}
+.small {
+  font-size: 14px;
+  line-height: 18px;
+}
+.medium {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 940px){
+  .medium {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.big {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.red {
+  color: #c00;
+}
+
+.black {
+  color: #111;
+}
