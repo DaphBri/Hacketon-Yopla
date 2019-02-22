@@ -42,7 +42,7 @@ export default {
 
       axios
         .get(
-          "http://feedme-bf.azurewebsites.net/api/restaurants/getrestaurants?name=" +
+          "//feedme-bf.azurewebsites.net/api/restaurants/getrestaurants?name=" +
             name +
             "&cuisineType=" +
             cuisine

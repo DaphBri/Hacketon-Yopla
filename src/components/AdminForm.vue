@@ -171,7 +171,7 @@ export default {
   methods: {
     postResto() {
       axios.post(
-        "http://feedme-bf.azurewebsites.net/api/restaurants/postrestaurant",
+        "//feedme-bf.azurewebsites.net/api/restaurants/postrestaurant",
         this.newResto
       );
 

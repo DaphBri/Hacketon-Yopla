@@ -46,7 +46,7 @@ export default {
   created(){
     axios
     .get(
-      "http://feedme-bf.azurewebsites.net/api/restaurants/getrestaurants"
+      "//feedme-bf.azurewebsites.net/api/restaurants/getrestaurants"
     )
     .then(response => {
       this.itemList = response.data;

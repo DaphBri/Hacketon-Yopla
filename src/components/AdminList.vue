@@ -38,7 +38,7 @@ export default {
       console.log(itemId);
       axios
         .delete(
-          "http://feedme-bf.azurewebsites.net/api/restaurants/deleterestaurant?id=" +
+          "//feedme-bf.azurewebsites.net/api/restaurants/deleterestaurant?id=" +
             itemId
         )
         .then(response => {

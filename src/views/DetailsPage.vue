@@ -31,13 +31,13 @@ export default {
     };
   },
   //alert(this.$route.params.id)
-  //je dois faire un appel ajax avec axios vers 'http://feedme-bf.azurewebsites.net/api/restaurants/' + this.$route.params.id
+  //je dois faire un appel ajax avec axios vers '//feedme-bf.azurewebsites.net/api/restaurants/' + this.$route.params.id
   // et je mettrai response.data dans une data de ma vue et je passerai ça aux props de DetailedResto
   //response.data sera un objet
   created() {
     axios
       .get(
-        "http://feedme-bf.azurewebsites.net/api/restaurants/getrestaurantsdetails?id=" +
+        "//feedme-bf.azurewebsites.net/api/restaurants/getrestaurantsdetails?id=" +
           this.$route.params.id
       )
       .then(response => {
